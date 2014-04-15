@@ -1,3 +1,6 @@
 [submodule "suice"]
 	path = suice
 	url = git@github.com:Disturbing/suice.git
+[submodule "framework"]
+	path = framework
+	url = git@github.com:ekocaman/unity_framework.git
