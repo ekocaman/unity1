@@ -1,0 +1,3 @@
+[submodule "suice"]
+	path = suice
+	url = git@github.com:Disturbing/suice.git
