@@ -1,31 +1,22 @@
-# =============== #
-# Unity generated #
-# =============== #
-Temp/
-Library/
-
-# ===================================== #
-# Visual Studio / MonoDevelop generated #
-# ===================================== #
-ExportedObj/
-obj/
-*.svd
-*.userprefs
-/*.csproj
+# Ignore the contributor's local assets folder, subfolders, and files
+Assets/~Local/*
+Assets/~Local/**/*
+Assets/~Local.meta
+ 
+# Ignore Library files
+Library/*
+Library/**/*
+ 
+# Ignore local build files
+obj/*
+obj/**/*
+Temp/*
+Temp/**/*
+ 
+# Ignore local project files
+*.csproj
 *.pidb
+*.sln
 *.suo
-/*.sln
-*.user
 *.unityproj
-*.booproj
-
-# ============ #
-# OS generated #
-# ============ #
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+*.userprefs
